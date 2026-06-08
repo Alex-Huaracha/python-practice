@@ -30,3 +30,6 @@ htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Tooling artifacts (not part of the project)
+.atl/

@@ -1,0 +1,23 @@
+[project]
+name = "python-practice"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.16",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+# A sensible default set for learning: pycodestyle, pyflakes, isort,
+# pep8-naming, pyupgrade and common bugbears.
+select = ["E", "F", "I", "N", "UP", "B", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
